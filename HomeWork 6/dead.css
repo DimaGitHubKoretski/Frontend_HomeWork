@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.div1{
+    
+    box-shadow: 5px 0px 15px 3px rgb(0, 0, 0);
+    border: 1px solid rgb(235, 235, 235);
+    width: 300px;
+    height:300px;
+    overflow: auto;  
+}
+.div2 {
+    background:url(./mnzw1-1000x1000.PNG);
+    background-repeat: repeat-y;
+    width: 100px;
+    height: 400px; 
+}
+p{
+    font-size: 18px;
+}
