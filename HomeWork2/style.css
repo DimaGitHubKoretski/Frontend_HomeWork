@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 20px;
+    height: 120px;
+    text-align: center;
+    background-color: aquamarine;
+}
+header p{
+    font-size:26px;
+}
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+nav p{
+
+    color: aliceblue;
+}
+nav p :hover{
+    color: aliceblue;
+    text-shadow: 15px 5px 5px 5px red;
+}
+.nav1 p{
+    padding: 5px 15px;
+}
+.nav2 p{
+    padding: 5px 15px;
+}
+.nav3 p{
+    padding: 5px 15px;
+}
+.nav4 p{
+    padding: 5px 15px;
+}
+main{
+  
+    display: flex;
+}
+.main1{
+    padding: 5px 15px;
+    background-color: blanchedalmond;
+    flex: 30%;
+}
+.main1 p h1{
+    padding: 10px;
+}
+.main11{
+height: 150px;
+    background-color: rgb(182, 136, 62);
+}
+.main2{
+    padding: 5px 15px;
+    flex: 70%;
+    background-color: rgb(110, 114, 74);
+}
+.main22{
+    height: 150px;
+        background-color: rgb(133, 98, 42);
+    }
+
+.main22 p{
+    padding: 15px 15px;
+}
+.main11 p{
+    padding: 15px 15px;
+}
+footer{
+    height: 90px;
+    background-color: rgb(233, 167, 80);
+    text-align: center;
+}
+footer h2{
+    font-size: 30px;
+    padding: 30px;
+}
+.main112{
+    height: 45px;
+    background-color: rgb(133, 98, 42);
+
+}
+.main112 p{
+   padding: 15px 15px;
+}
